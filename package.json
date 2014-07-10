@@ -6,8 +6,7 @@
   "keywords": [
     "css",
     "oocss",
-    "",
-    ""
+    "background-clip"
   ],
   "css-background-clip": {
     "type": "git",
