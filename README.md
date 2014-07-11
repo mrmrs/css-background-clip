@@ -23,19 +23,19 @@ or download the css on github and include in your project.
 .bg-clip-pb { background-clip: padding-box; }
 .bg-clip-cb { background-clip: content-box; }
 
-@include break(not-small) {
+@media screen and (min-width: 48em) {
   .bg-clip-bb-ns { background-clip: border-box; }
   .bg-clip-pb-ns { background-clip: padding-box; }
   .bg-clip-cb-ns { background-clip: content-box; }
 }
 
-@include break(medium) {
+@media screen and (min-width: 48em) and (max-width: 64em) {
   .bg-clip-bb-m { background-clip: border-box; }
   .bg-clip-pb-m { background-clip: padding-box; }
   .bg-clip-cb-m { background-clip: content-box; }
 }
 
-@include break(large) {
+@media screen and (min-width: 64em)  {
   .bg-clip-bb-l { background-clip: border-box; }
   .bg-clip-pb-l { background-clip: padding-box; }
   .bg-clip-cb-l { background-clip: content-box; }
