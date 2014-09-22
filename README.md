@@ -20,7 +20,8 @@ View on [npm](https://www.npmjs.org/package/css-background-clip)
 ## File Size
 
 757B background-clip.css
-631B background-clip.min.css
+631B background-clip.min.css 
+174B minified and gzipped
 
 ## The Code
 ```
