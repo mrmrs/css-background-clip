@@ -1,7 +1,7 @@
 {
   "name": "css-background-clip",
   "style": "background-clip.css",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "homepage": "http://github.com/mrmrs/css-background-clip",
   "description": "Css module of single purpose classes for background clip",
   "keywords": [
