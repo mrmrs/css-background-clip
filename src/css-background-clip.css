@@ -7,9 +7,9 @@
 .bg-clip-cb { background-clip: content-box; }
 
 @media screen and (min-width: 48em) {
-  .bg-clip-bb-ns { background-clip: border-box; }
-  .bg-clip-pb-ns { background-clip: padding-box; }
-  .bg-clip-cb-ns { background-clip: content-box; }
+  .bg-clip-bb-s { background-clip: border-box; }
+  .bg-clip-pb-s { background-clip: padding-box; }
+  .bg-clip-cb-s { background-clip: content-box; }
 }
 
 @media screen and (min-width:48em) and (max-width: 64em) {
