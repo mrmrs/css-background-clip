@@ -1,38 +1,44 @@
 {
   "name": "css-background-clip",
-  "style": "background-clip.css",
-  "version": "1.0.8",
-  "homepage": "http://github.com/mrmrs/css-background-clip",
-  "description": "Css module of single purpose classes for background clip",
+  "version": "2.0.0",
+  "description": "Functional CSS for background-clip",
+  "style": "dist/background-clip.css",
+  "main": "dist/background-clip.css",
+  "exports": {
+    ".": "./dist/background-clip.css",
+    "./dist/*": "./dist/*",
+    "./src/*": "./src/*"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "node build.js",
+    "prepublishOnly": "npm run build"
+  },
   "keywords": [
     "css",
-    "oocss",
-    "background-clip"
+    "background-clip",
+    "utility",
+    "single-purpose",
+    "functional-css"
   ],
-  "css-background-clip": {
+  "homepage": "https://github.com/mrmrs/css-background-clip",
+  "repository": {
     "type": "git",
-    "url": "http://github.com/mrmrs/css-background-clip.git"
+    "url": "https://github.com/mrmrs/css-background-clip.git"
   },
   "bugs": {
-    "url": "https://github.com/mrmrs/css-background-clip/issues",
-    "email": "hi@mrmrs.cc"
+    "url": "https://github.com/mrmrs/css-background-clip/issues"
   },
   "author": {
     "name": "Adam Morse",
     "email": "hi@mrmrs.cc",
     "url": "http://mrmrs.cc"
   },
-  "contributors": [
-    {
-      "name": "Adam Morse",
-      "email": "hi@mrmrs.cc"
-    }
-  ],
-  "license": "MIT",
+  "license": "ISC",
   "devDependencies": {
     "lightningcss": "^1"
-  },
-  "scripts": {
-    "build": "node build.js"
   }
 }
